@@ -1,0 +1,5 @@
+TegakiOSD.
+
+Check out tegaki.org for general information on tegaki. You need to have
+tegaki-python installed in order for tegakiOSD to work. For usage instructions
+just fire up tegakiosd.py and read.

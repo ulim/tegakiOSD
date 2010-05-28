@@ -331,9 +331,6 @@ static PyMethodDef XInputExtDevMethods[] = {
 
 PyMODINIT_FUNC initxinputextdev(void)
 {
-	/* Parallel access from here and python/gtk */
-	XInitThreads();
-
 	display = XOpenDisplay(NULL);
 
 	/* polling this seems to be the only way 
